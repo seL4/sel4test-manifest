@@ -23,7 +23,7 @@ fetch="."
 remote="seL4"
 />
 
-<project name="seL4.git" path="kernel"/>
+<project name="seL4.git" path="kernel" revision="experimental"/>
 <project name="common-tool.git" path="tools/common"/>
 <project name="kbuild-tool.git" path="tools/kbuild"/>
 <project name="elfloader-tool.git" path="tools/elfloader"/>
@@ -46,7 +46,7 @@ remote="seL4"
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="Kbuild" dest="Kbuild"/>
     <linkfile src="Kconfig" dest="Kconfig"/>
-    <linkfile src="master-configs" dest="configs"/>
+    <linkfile src="experimental-configs" dest="configs"/>
     <linkfile src="apps" dest="apps"/>
     <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
 </project>
