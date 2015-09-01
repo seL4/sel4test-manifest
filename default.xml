@@ -19,11 +19,13 @@
 fetch="."
 />
 
+<remote name="sched"
+fetch="../alyons"/>
+
 <default revision="master"
 remote="seL4"
 />
 
-<project name="seL4.git" path="kernel"/>
 <project name="common-tool.git" path="tools/common"/>
 <project name="kbuild-tool.git" path="tools/kbuild"/>
 <project name="elfloader-tool.git" path="tools/elfloader"/>
@@ -31,18 +33,16 @@ remote="seL4"
 <project name="libsel4muslcsys.git" path="libs/libsel4muslcsys"/>
 <project name="libsel4platsupport.git" path="libs/libsel4platsupport"/>
 <project name="libsel4test.git" path="libs/libsel4test"/>
-<project name="libsel4allocman.git" path="libs/libsel4allocman"/>
-<project name="libsel4vka.git" path="libs/libsel4vka"/>
 <project name="libsel4vspace.git" path="libs/libsel4vspace"/>
-<project name="libsel4utils.git" path="libs/libsel4utils"/>
 <project name="libcpio.git" path="libs/libcpio"/>
 <project name="libelf.git" path="libs/libelf"/>
-<project name="libsel4simple.git" path="libs/libsel4simple"/>
 <project name="libsel4simple-default.git" path="libs/libsel4simple-default"/>
 <project name="libsel4simple-stable.git" path="libs/libsel4simple-stable"/>
 <project name="libplatsupport.git" path="libs/libplatsupport"/>
 <project name="libutils.git" path="libs/libutils"/>
-<project name="sel4test.git" path="projects/sel4test">
+
+<!-- forked repos -->
+<project remote="sched" name="sel4test.git" path="projects/sel4test" revision="rt">
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="Kbuild" dest="Kbuild"/>
     <linkfile src="Kconfig" dest="Kconfig"/>
@@ -50,5 +50,13 @@ remote="seL4"
     <linkfile src="apps" dest="apps"/>
     <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
 </project>
+
+<project remote="sched" name="libsel4simple.git" path="libs/libsel4simple" revision="rt"/>
+<project remote="sched" name="libsel4allocman.git" path="libs/libsel4allocman" revision="rt"/>
+<project remote="sched" name="seL4.git" path="kernel" revision="rt" />
+<project remote="sched" name="libsel4utils.git" path="libs/libsel4utils" revision="rt"/>
+
+<!-- new (rt) repos -->
+<project remote="sched" name="libsel4vka.git" path="libs/libsel4vka" revision="rt"/>
 
 </manifest>
