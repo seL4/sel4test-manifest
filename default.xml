@@ -30,6 +30,7 @@ remote="seL4"
 <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
 <project name="seL4_libs.git" path="projects/seL4_libs">
     <linkfile src="libsel4allocman" dest="libs/libsel4allocman" />
+    <linkfile src="libsel4debug" dest="libs/libsel4debug" />
     <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys" />
     <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport" />
     <linkfile src="libsel4simple" dest="libs/libsel4simple" />
