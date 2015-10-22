@@ -24,9 +24,11 @@ remote="seL4"
 />
 
 <project name="seL4.git" path="kernel"/>
-<project name="common-tool.git" path="tools/common"/>
-<project name="kbuild-tool.git" path="tools/kbuild"/>
-<project name="elfloader-tool.git" path="tools/elfloader"/>
+<project name="seL4_tools.git" path="tools">
+    <linkfile src="common-tool" dest="tools/common"/>
+    <linkfile src="kbuild-tool" dest="tools/kbuild"/>
+    <linkfile src="elfloader-tool" dest="tools/elfloader" />
+</project>
 <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
 <project name="seL4_libs.git" path="projects/seL4_libs">
     <linkfile src="libsel4allocman" dest="libs/libsel4allocman" />
