@@ -24,7 +24,7 @@ remote="seL4"
 />
 
 <project name="seL4.git" path="kernel"/>
-<project name="seL4_tools.git" path="tools">
+<project name="seL4_tools.git" path="projects/tools">
     <linkfile src="common-tool" dest="tools/common"/>
     <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     <linkfile src="elfloader-tool" dest="tools/elfloader" />
