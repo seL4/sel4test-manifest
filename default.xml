@@ -33,7 +33,7 @@ remote="seL4"
     <linkfile src="elfloader-tool" dest="tools/elfloader" />
 </project>
 <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
-<project remote="sched" name="seL4_libs.git" path="projects/seL4_libs" revision="rt">
+<project remote="sched" name="seL4_libs.git" path="projects/seL4_libs" revision="rt-proper">
     <linkfile src="libsel4allocman" dest="libs/libsel4allocman" />
     <linkfile src="libsel4debug" dest="libs/libsel4debug" />
     <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys" />
