@@ -1,0 +1,43 @@
+<manifest>
+
+
+<remote fetch="." name="seL4" />
+
+<default remote="seL4" revision="master" />
+
+<project name="seL4.git" path="kernel" revision="refs/tags/2.0.0" />
+<project name="seL4_tools.git" path="projects/tools" revision="2.0.x-compatible">
+    <linkfile dest="tools/common" src="common-tool" />
+    <linkfile dest="tools/kbuild" src="kbuild-tool" />
+    <linkfile dest="tools/elfloader" src="elfloader-tool" />
+</project>
+<project name="musllibc.git" path="libs/libmuslc" revision="sel4" />
+<project name="seL4_libs.git" path="projects/seL4_libs" revision="2.0.x-compatible" >
+    <linkfile dest="libs/libsel4allocman" src="libsel4allocman" />
+    <linkfile dest="libs/libsel4debug" src="libsel4debug" />
+    <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys" />
+    <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport" />
+    <linkfile dest="libs/libsel4simple" src="libsel4simple" />
+    <linkfile dest="libs/libsel4simple-default" src="libsel4simple-default" />
+    <linkfile dest="libs/libsel4simple-stable" src="libsel4simple-stable" />
+    <linkfile dest="libs/libsel4test" src="libsel4test" />
+    <linkfile dest="libs/libsel4utils" src="libsel4utils" />
+    <linkfile dest="libs/libsel4vka" src="libsel4vka" />
+    <linkfile dest="libs/libsel4vspace" src="libsel4vspace" />
+</project>
+<project name="util_libs.git" path="projects/util_libs" revision="2.0.x-compatible">
+    <linkfile dest="libs/libcpio" src="libcpio" />
+    <linkfile dest="libs/libelf" src="libelf" />
+    <linkfile dest="libs/libplatsupport" src="libplatsupport" />
+    <linkfile dest="libs/libutils" src="libutils" />
+</project>
+<project name="sel4test.git" path="projects/sel4test" revision="2.0.x-compatible">
+    <linkfile dest="Makefile" src="Makefile" />
+    <linkfile dest="Kbuild" src="Kbuild" />
+    <linkfile dest="Kconfig" src="Kconfig" />
+    <linkfile dest="configs" src="master-configs" />
+    <linkfile dest="apps" src="apps" />
+    <linkfile dest="libs/libsel4" src="../../kernel/libsel4" />
+</project>
+
+</manifest>
