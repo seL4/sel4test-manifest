@@ -23,14 +23,14 @@ fetch="."
 remote="seL4"
 />
 
-<project name="seL4.git" path="kernel" revision="rt" />
+<project name="seL4.git" path="kernel" revision="new-rt" />
 <project name="seL4_tools.git" path="projects/tools">
     <linkfile src="common-tool" dest="tools/common"/>
     <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     <linkfile src="elfloader-tool" dest="tools/elfloader" />
 </project>
 <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
-<project name="seL4_libs.git" path="projects/seL4_libs" revision="rt">
+<project name="seL4_libs.git" path="projects/seL4_libs" revision="new-rt">
     <linkfile src="libsel4allocman" dest="libs/libsel4allocman" />
     <linkfile src="libsel4debug" dest="libs/libsel4debug" />
     <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys" />
@@ -50,7 +50,7 @@ remote="seL4"
     <linkfile src="libplatsupport" dest="libs/libplatsupport" />
     <linkfile src="libutils" dest="libs/libutils" />
 </project>
-<project name="sel4test.git" path="projects/sel4test" revision="rt">
+<project name="sel4test.git" path="projects/sel4test" revision="new-rt">
     <linkfile src="Makefile" dest="Makefile"/>
     <linkfile src="Kbuild" dest="Kbuild"/>
     <linkfile src="Kconfig" dest="Kconfig"/>
