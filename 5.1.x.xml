@@ -15,7 +15,7 @@
 
 <default revision="master" remote="seL4"/>
 
-<project name="seL4.git" path="kernel" revision="5.1.x-compatible"/>
+<project name="seL4.git" path="kernel" revision="refs/tags/5.1.0"/>
 <project name="seL4_tools.git" path="projects/tools" revision="5.1.x-compatible">
     <linkfile src="common-tool" dest="tools/common"/>
     <linkfile src="kbuild-tool" dest="tools/kbuild"/>
