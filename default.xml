@@ -28,6 +28,8 @@ remote="seL4"
     <linkfile src="common-tool" dest="tools/common"/>
     <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     <linkfile src="elfloader-tool" dest="tools/elfloader" />
+    <linkfile src="cmake-tool" dest="tools/cmake-tool" />
+    <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt"/>
 </project>
 <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
 <project name="seL4_libs.git" path="projects/seL4_libs">
