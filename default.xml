@@ -31,7 +31,9 @@ remote="seL4"
     <linkfile src="cmake-tool" dest="tools/cmake-tool" />
     <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt"/>
 </project>
-<project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
+<project name="musllibc.git" path="projects/musllibc" revision="sel4">
+    <linkfile src="." dest="libs/libmuslc"/>
+</project>
 <project name="seL4_libs.git" path="projects/seL4_libs">
     <linkfile src="libsel4allocman" dest="libs/libsel4allocman" />
     <linkfile src="libsel4debug" dest="libs/libsel4debug" />
