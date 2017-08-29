@@ -10,8 +10,6 @@
 
      @TAG(DATA61_BSD)
 -->
-  -->
-
 <manifest>
 
 <!-- We assume this manifest is in the same path as all the libraries. If you are
