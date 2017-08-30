@@ -1,0 +1,47 @@
+<!--
+     Copyright 2017, Data61
+     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+     ABN 41 687 119 230.
+
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
+-->
+<manifest>
+
+
+<remote fetch="." name="seL4" />
+
+<default remote="seL4" revision="master" />
+
+<project name="seL4.git" path="kernel" revision="refs/tags/1.0.4" revision="1.0.x-compatible"/>
+<project name="common-tool.git" path="tools/common" revision="1.0.x-compatible"/>
+<project name="kbuild-tool.git" path="tools/kbuild" revision="1.0.x-compatible"/>
+<project name="elfloader-tool.git" path="tools/elfloader" revision="1.0.x-compatible"/>
+<project name="musllibc.git" path="libs/libmuslc" revision="sel4" />
+<project name="libsel4muslcsys.git" path="libs/libsel4muslcsys" revision="1.0.x-compatible"/>
+<project name="libsel4platsupport.git" path="libs/libsel4platsupport" revision="1.0.x-compatible"/>
+<project name="libsel4test.git" path="libs/libsel4test" revision="1.0.x-compatible"/>
+<project name="libsel4allocman.git" path="libs/libsel4allocman" revision="1.0.x-compatible"/>
+<project name="libsel4vka.git" path="libs/libsel4vka" revision="1.0.x-compatible"/>
+<project name="libsel4vspace.git" path="libs/libsel4vspace" revision="1.0.x-compatible"/>
+<project name="libsel4utils.git" path="libs/libsel4utils" revision="1.0.x-compatible"/>
+<project name="libcpio.git" path="libs/libcpio" revision="1.0.x-compatible"/>
+<project name="libelf.git" path="libs/libelf" revision="1.0.x-compatible"/>
+<project name="libsel4simple.git" path="libs/libsel4simple" revision="1.0.x-compatible"/>
+<project name="libsel4simple-default.git" path="libs/libsel4simple-default" revision="1.0.x-compatible"/>
+<project name="libsel4simple-stable.git" path="libs/libsel4simple-stable" revision="1.0.x-compatible"/>
+<project name="libplatsupport.git" path="libs/libplatsupport" revision="1.0.x-compatible"/>
+<project name="libutils.git" path="libs/libutils" revision="1.0.x-compatible"/>
+<project name="sel4test.git" path="projects/sel4test" revision="1.0.x-compatible">
+    <linkfile dest="Makefile" src="Makefile" />
+    <linkfile dest="Kbuild" src="Kbuild" />
+    <linkfile dest="Kconfig" src="Kconfig" />
+    <linkfile dest="configs" src="master-configs" />
+    <linkfile dest="apps" src="apps" />
+    <linkfile dest="libs/libsel4" src="../../kernel/libsel4" />
+</project>
+
+</manifest>
