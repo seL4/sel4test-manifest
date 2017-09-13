@@ -57,6 +57,7 @@ remote="seL4"
     <linkfile src="Kconfig" dest="Kconfig"/>
     <linkfile src="master-configs" dest="configs"/>
     <linkfile src="apps" dest="apps"/>
+    <linkfile src="libsel4testsupport" dest="libs/libsel4testsupport" />
     <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
 </project>
 
