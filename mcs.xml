@@ -10,7 +10,6 @@
 
      @TAG(DATA61_BSD)
 -->
-
 <manifest>
 
 <!-- We assume this manifest is in the same path as all the libraries. If you are
@@ -29,8 +28,12 @@ remote="seL4"
     <linkfile src="common-tool" dest="tools/common"/>
     <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     <linkfile src="elfloader-tool" dest="tools/elfloader" />
+    <linkfile src="cmake-tool" dest="tools/cmake-tool" />
+    <linkfile src="cmake-tool/default-CMakeLists.txt" dest="CMakeLists.txt"/>
 </project>
-<project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
+<project name="musllibc.git" path="projects/musllibc" revision="sel4">
+    <linkfile src="." dest="libs/libmuslc"/>
+</project>
 <project name="seL4_libs.git" path="projects/seL4_libs">
     <linkfile src="libsel4allocman" dest="libs/libsel4allocman" />
     <linkfile src="libsel4debug" dest="libs/libsel4debug" />
@@ -58,8 +61,8 @@ remote="seL4"
     <linkfile src="Kconfig" dest="Kconfig"/>
     <linkfile src="master-configs" dest="configs"/>
     <linkfile src="apps" dest="apps"/>
-    <linkfile src="libsel4testsupport" dest="libs/libsel4testsupport" />
     <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
+    <linkfile src="libsel4testsupport" dest="libs/libsel4testsupport" />
 </project>
 
 </manifest>
