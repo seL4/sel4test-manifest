@@ -11,10 +11,50 @@
      @TAG(DATA61_BSD)
 -->
 <manifest>
-
-<!-- include all the common repositories, we just want to define the kernel -->
-<include name="common.xml"/>
-
-<project name="seL4.git" path="kernel"/>
-
+  <remote fetch="." name="seL4"/>
+  
+  <default remote="seL4" revision="master"/>
+  
+  <project name="musllibc.git" path="projects/musllibc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
+    <linkfile dest="libs/libmuslc" src="."/>
+  </project>
+  <project name="seL4.git" path="kernel" revision="252e0a82a7886068be81ae6f5e425e7c19490dfe" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="f44c961b7087de32a97d32a7042a1cf609151954" upstream="master">
+    <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
+    <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
+    <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
+    <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
+    <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
+    <linkfile dest="libs/libsel4simple" src="libsel4simple"/>
+    <linkfile dest="libs/libsel4simple-default" src="libsel4simple-default"/>
+    <linkfile dest="libs/libsel4simple-stable" src="libsel4simple-stable"/>
+    <linkfile dest="libs/libsel4test" src="libsel4test"/>
+    <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
+    <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
+    <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
+    <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
+  </project>
+  <project name="seL4_tools.git" path="projects/tools" revision="afe398cd09bc35c5a4d573006ed19284a164ad80" upstream="master">
+    <linkfile dest="tools/common" src="common-tool"/>
+    <linkfile dest="tools/kbuild" src="kbuild-tool"/>
+    <linkfile dest="tools/elfloader" src="elfloader-tool"/>
+    <linkfile dest="tools/cmake-tool" src="cmake-tool"/>
+    <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
+    <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
+  </project>
+  <project name="sel4test.git" path="projects/sel4test" revision="86ecc7158c655e31430f2c40a17f4a620ab41c04" upstream="master">
+    <linkfile dest="Makefile" src="Makefile"/>
+    <linkfile dest="Kbuild" src="Kbuild"/>
+    <linkfile dest="Kconfig" src="Kconfig"/>
+    <linkfile dest="configs" src="master-configs"/>
+    <linkfile dest="apps" src="apps"/>
+    <linkfile dest="libs/libsel4" src="../../kernel/libsel4"/>
+    <linkfile dest="libs/libsel4testsupport" src="libsel4testsupport"/>
+  </project>
+  <project name="util_libs.git" path="projects/util_libs" revision="48a144dd901459fdf263836569e017cf4da8d700" upstream="master">
+    <linkfile dest="libs/libcpio" src="libcpio"/>
+    <linkfile dest="libs/libelf" src="libelf"/>
+    <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
+    <linkfile dest="libs/libutils" src="libutils"/>
+  </project>
 </manifest>
