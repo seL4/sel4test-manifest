@@ -18,7 +18,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="3d6f4f9bb7bfe42628dfa555601401fa4efcdf2d" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="4812ddf440c5df8ac8fde8184446dc859ac70b4c" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="9df65d82d3c90f7d45c121b4772ff1b228f8048f" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
@@ -51,7 +51,7 @@
     <linkfile dest="libs/libsel4" src="../../kernel/libsel4"/>
     <linkfile dest="libs/libsel4testsupport" src="libsel4testsupport"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="971441acaf1477ee524c456fd9e3eb4b34e60a9f" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="88119c8c2a52082d5c809e828fda45162245e7fb" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
