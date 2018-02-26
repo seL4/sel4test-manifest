@@ -19,7 +19,7 @@
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
   <project name="seL4.git" path="kernel" revision="33398f2191791be94bc406f1f948f0234b98c8b7" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="0cc01ec9a1603d68cf28c835058054432e54e9a7" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="2c73894205567d28ce4e9e89083b1cf95a2c3e42" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
