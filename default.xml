@@ -18,8 +18,8 @@
   <project name="musllibc.git" path="projects/musllibc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="050f38840075d628dfdc94f5a5792262c36bfdfb" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="239f6dc6364c3bfd40e72bf3efdc96360d86a744" upstream="master">
+  <project name="seL4.git" path="kernel" revision="59d9bd78b4697e5ca8324ffddf55e28abad213de" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="c4e0428d177e0b54a75c78ab197fc703163ee5d3" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
     <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
@@ -34,7 +34,7 @@
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
     <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="af48b52d5a03a3a7a62c64fe89eb5f30d5234144" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="8bcd0f1e434adc89a5da7ac07f553230bf96eeb8" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
@@ -51,7 +51,7 @@
     <linkfile dest="libs/libsel4" src="../../kernel/libsel4"/>
     <linkfile dest="libs/libsel4testsupport" src="libsel4testsupport"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="88119c8c2a52082d5c809e828fda45162245e7fb" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="f5015889309340a7e8288ca9575b33dc6ddc0312" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
