@@ -18,7 +18,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="315562d35c56fdab9671f92d67abb1d7e711c2e4" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="cc9ccb497b37f473a8ea0f5e1f89565e39a85c23" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="6ee8ecb02b7071ee0eb505277e77bf30d1b5dc1d" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
@@ -34,7 +34,7 @@
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
     <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="413656df3d75a6ffd493ae4693b386fb6d67a6bc" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="1dfdaa13bf9c284100a4f9bbec6b4720e64cba81" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
