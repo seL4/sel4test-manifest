@@ -51,7 +51,7 @@
     <linkfile dest="libs/libsel4" src="../../kernel/libsel4"/>
     <linkfile dest="libs/libsel4testsupport" src="libsel4testsupport"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="bb731a43c1f624e6fee15b76a3896ade76002a14" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="99062935f9d2a97595be5af475ab31712d02d371" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
