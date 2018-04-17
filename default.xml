@@ -18,7 +18,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="c5184b802b1d523b7c3376729d8cd9b4828430d9" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="6ad387d2bff4e9853028433f53286f35425d254b" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="a34751b760261a8bb519d33a5dd440a24c724f8d" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
