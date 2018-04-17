@@ -18,7 +18,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="d5d5d04e4f99f9900269350e5bb0f9f9b0a27ca9" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="fd2831bb3c9324fd5651dcdb8fc5563bce1ed37a" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="c5184b802b1d523b7c3376729d8cd9b4828430d9" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="a34751b760261a8bb519d33a5dd440a24c724f8d" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
@@ -34,7 +34,7 @@
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
     <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="1f57b8aa4c57619d21b3c5d35c6d1378d799cb5a" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="a242cb7c4fdbdce6d9fd01f5b375c7137ed55f05" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
@@ -42,7 +42,7 @@
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="sel4test.git" path="projects/sel4test" revision="08bb70bd5c764d0176c06b1032f81dcf0fe976c7" upstream="master">
+  <project name="sel4test.git" path="projects/sel4test" revision="09e0a43d3f472e4bd6a610b5cabd04063f52904c" upstream="master">
     <linkfile dest="Makefile" src="Makefile"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="Kconfig" src="Kconfig"/>
@@ -51,7 +51,7 @@
     <linkfile dest="libs/libsel4" src="../../kernel/libsel4"/>
     <linkfile dest="libs/libsel4testsupport" src="libsel4testsupport"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="54a810727b0a8fa72a2edd544aa072453df88ef3" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="b89a19a3a566f2e2289b1114c55b12fff12865be" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
