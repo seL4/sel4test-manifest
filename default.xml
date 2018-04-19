@@ -22,7 +22,7 @@
   <project name="riscv-pk" path="projects/riscv-pk" remote="sel4proj" revision="db937e995b09d343fb7146c447b0780ab1dca66b" upstream="fix-32bit">
     <linkfile dest="tools/riscv-pk" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="7b4a42c427d12f42b3c35e203c28f9f9ac1271df" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="b34088c323bf09a879ceab0593f3cbf7253cf62d" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="494cd46c8497f50036b5e517720e1604affe6b10" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
