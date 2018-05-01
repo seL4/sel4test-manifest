@@ -22,7 +22,7 @@
   <project name="riscv-pk" path="projects/riscv-pk" remote="sel4proj" revision="db937e995b09d343fb7146c447b0780ab1dca66b" upstream="fix-32bit">
     <linkfile dest="tools/riscv-pk" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="e607dc461044c4c3e1abe6239a2feebdce319f3e" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="5fade8b29f308c01c328f551b15b805744d61914" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
@@ -55,7 +55,7 @@
     <linkfile dest="libs/libsel4" src="../../kernel/libsel4"/>
     <linkfile dest="libs/libsel4testsupport" src="libsel4testsupport"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="2d09b5a665ea641570fbe034b30ad7b869bd7f11" upstream="master">
+  <project name="util_libs.git" path="projects/util_libs" revision="c575f7280ce6184dbb2876f83a6c591c91de219e" upstream="master">
     <linkfile dest="libs/libcpio" src="libcpio"/>
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
