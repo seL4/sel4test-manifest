@@ -22,7 +22,7 @@
   <project name="riscv-pk" path="projects/riscv-pk" remote="sel4proj" revision="db937e995b09d343fb7146c447b0780ab1dca66b" upstream="fix-32bit">
     <linkfile dest="tools/riscv-pk" src="."/>
   </project>
-  <project name="seL4.git" path="kernel" revision="65012ae41779c603d7fb92e1e3fd91d23d7d0005" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="757c3ac98246afd0593367f1fa19054316a77495" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master">
     <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
     <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
@@ -38,7 +38,7 @@
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
     <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="87642544dbb767806d9c1f0fb673eb5ac86c242b" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="930b6467eae8404e4a72555b693120ac0d64fc48" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
