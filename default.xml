@@ -38,7 +38,7 @@
     <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
     <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
   </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="eb154beebc15f21d9db86366b85f0a41ab9341c6" upstream="master">
+  <project name="seL4_tools.git" path="projects/tools" revision="8834dde7ae51a321c9dd2a52d3975411cc1b3dc9" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
