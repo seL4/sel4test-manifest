@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright 2018, Data61
+     Copyright 2017, Data61
      Commonwealth Scientific and Industrial Research Organisation (CSIRO)
      ABN 41 687 119 230.
 
@@ -10,55 +9,47 @@
 
      @TAG(DATA61_BSD)
 -->
-<manifest>
-  <remote fetch="." name="seL4"/>
-  <remote fetch="../sel4proj" name="sel4proj"/>
-  
-  <default remote="seL4" revision="master"/>
-  
-  <project name="musllibc.git" path="projects/musllibc" revision="f58dacf44a679a2d7c10fbb8d8bc8f58e2123791" upstream="sel4">
-    <linkfile dest="libs/libmuslc" src="."/>
-  </project>
-  <project name="riscv-pk" path="projects/riscv-pk" remote="sel4proj" revision="db937e995b09d343fb7146c447b0780ab1dca66b" upstream="fix-32bit">
-    <linkfile dest="tools/riscv-pk" src="."/>
-  </project>
-  <project name="seL4.git" path="kernel" revision="f5725b0e4999963ad33218d16503096e0570637c" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="1697cb16ecbc7820cbda78d7c7c1896e884195a1" upstream="master">
-    <linkfile dest="libs/libsel4allocman" src="libsel4allocman"/>
-    <linkfile dest="libs/libsel4debug" src="libsel4debug"/>
-    <linkfile dest="libs/libsel4muslcsys" src="libsel4muslcsys"/>
-    <linkfile dest="libs/libsel4platsupport" src="libsel4platsupport"/>
-    <linkfile dest="libs/libsel4serialserver" src="libsel4serialserver"/>
-    <linkfile dest="libs/libsel4simple" src="libsel4simple"/>
-    <linkfile dest="libs/libsel4simple-default" src="libsel4simple-default"/>
-    <linkfile dest="libs/libsel4simple-stable" src="libsel4simple-stable"/>
-    <linkfile dest="libs/libsel4test" src="libsel4test"/>
-    <linkfile dest="libs/libsel4utils" src="libsel4utils"/>
-    <linkfile dest="libs/libsel4vka" src="libsel4vka"/>
-    <linkfile dest="libs/libsel4vspace" src="libsel4vspace"/>
-    <linkfile dest="libs/libsel4sync" src="libsel4sync"/>
-  </project>
-  <project name="seL4_tools.git" path="projects/tools" revision="9cd9d57ec8783db3d3bcea1821d7e7e1fe84d34e" upstream="master">
-    <linkfile dest="tools/common" src="common-tool"/>
-    <linkfile dest="tools/kbuild" src="kbuild-tool"/>
-    <linkfile dest="tools/elfloader" src="elfloader-tool"/>
-    <linkfile dest="tools/cmake-tool" src="cmake-tool"/>
-    <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
-    <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
-  </project>
-  <project name="sel4test.git" path="projects/sel4test" revision="1408da4f282ff719c98c6d49e0980b4f84e7bc4f" upstream="master">
-    <linkfile dest="Makefile" src="Makefile"/>
-    <linkfile dest="Kbuild" src="Kbuild"/>
-    <linkfile dest="Kconfig" src="Kconfig"/>
-    <linkfile dest="configs" src="master-configs"/>
-    <linkfile dest="apps" src="apps"/>
-    <linkfile dest="libs/libsel4" src="../../kernel/libsel4"/>
-    <linkfile dest="libs/libsel4testsupport" src="libsel4testsupport"/>
-  </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="9e249f940b84a9c803f79d34fbcfc5c98e722bfc" upstream="master">
-    <linkfile dest="libs/libcpio" src="libcpio"/>
-    <linkfile dest="libs/libelf" src="libelf"/>
-    <linkfile dest="libs/libplatsupport" src="libplatsupport"/>
-    <linkfile dest="libs/libutils" src="libutils"/>
-  </project>
+ <manifest>
+<!-- We assume this manifest is in the same path as all the libraries. If you are
+     copying this manifest as a template then you probably want the fetch path
+     for this to be '../seL4' instead of '.' -->
+<remote name="seL4" fetch="."/>
+
+<default revision="master" remote="seL4"/>
+
+<project name="seL4.git" path="kernel" revision="refs/tags/3.1.0"/>
+<project name="seL4_tools.git" path="projects/tools" revision="3.1.x-compatible">
+    <linkfile src="common-tool" dest="tools/common"/>
+    <linkfile src="kbuild-tool" dest="tools/kbuild"/>
+    <linkfile src="elfloader-tool" dest="tools/elfloader"/>
+</project>
+<project name="musllibc.git" path="libs/libmuslc" revision="3.1.x-compatible"/>
+<project name="seL4_libs.git" path="projects/seL4_libs" revision="3.1.x-compatible">
+    <linkfile src="libsel4allocman" dest="libs/libsel4allocman"/>
+    <linkfile src="libsel4debug" dest="libs/libsel4debug"/>
+    <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
+    <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport"/>
+    <linkfile src="libsel4simple" dest="libs/libsel4simple"/>
+    <linkfile src="libsel4simple-default" dest="libs/libsel4simple-default"/>
+    <linkfile src="libsel4simple-stable" dest="libs/libsel4simple-stable"/>
+    <linkfile src="libsel4test" dest="libs/libsel4test"/>
+    <linkfile src="libsel4utils" dest="libs/libsel4utils"/>
+    <linkfile src="libsel4vka" dest="libs/libsel4vka"/>
+    <linkfile src="libsel4vspace" dest="libs/libsel4vspace"/>
+</project>
+<project name="util_libs.git" path="projects/util_libs" revision="3.1.x-compatible">
+    <linkfile src="libcpio" dest="libs/libcpio"/>
+    <linkfile src="libelf" dest="libs/libelf"/>
+    <linkfile src="libplatsupport" dest="libs/libplatsupport"/>
+    <linkfile src="libutils" dest="libs/libutils"/>
+</project>
+<project name="sel4test.git" path="projects/sel4test" revision="3.1.x-compatible">
+    <linkfile src="Makefile" dest="Makefile"/>
+    <linkfile src="Kbuild" dest="Kbuild"/>
+    <linkfile src="Kconfig" dest="Kconfig"/>
+    <linkfile src="master-configs" dest="configs"/>
+    <linkfile src="apps" dest="apps"/>
+    <linkfile src="../../kernel/libsel4" dest="libs/libsel4"/>
+</project>
+
 </manifest>
