@@ -16,7 +16,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="musllibc.git" path="projects/musllibc" revision="f58dacf44a679a2d7c10fbb8d8bc8f58e2123791" upstream="sel4">
+  <project name="musllibc.git" path="projects/musllibc" revision="fad6e9e25c82bb763f0680c73f0eeaab36097ab2" upstream="sel4">
     <linkfile dest="libs/libmuslc" src="."/>
   </project>
   <project name="riscv-pk" path="projects/riscv-pk" remote="sel4proj" revision="db937e995b09d343fb7146c447b0780ab1dca66b" upstream="fix-32bit">
