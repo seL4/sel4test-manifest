@@ -13,7 +13,7 @@ sel4test-manifest
 =================
 The sel4test project aims to test sel4 and some of its user libraries on many different targets.
 
-For general instructions on using this repository, see [sel4.systems/Info/GettingStarted/](http://sel4.systems/Info/GettingStarted/)
-and the Wiki.
+For general instructions on using this repository, see [Getting Started](/GettingStarted)
+and the [seL4Test page](/seL4Test) on the docsite.
 
 See [Host Dependencies](https://docs.sel4.systems/HostDependencies) for required dependencies.
