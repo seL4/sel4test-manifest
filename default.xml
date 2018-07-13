@@ -20,10 +20,10 @@
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="db937e995b09d343fb7146c447b0780ab1dca66b" upstream="fix-32bit"/>
   <project name="seL4.git" path="kernel" revision="723aa0ead332660cc7f692f051a8fd9ca4ffc95c" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="7528b23f85dffafcb26a966ad7fa99e0efc13427" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="c81ff8b906abf5581e6120d08b79fc114e631af2" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="70153c95077539135664020bfd47f924b3a290fe" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
   <project name="sel4test.git" path="projects/sel4test" revision="e05b10427760c5a03738c4bd98247ac848a5f6ac" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="8389c851a14e366e70354f96eddced1963affe6c" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="ec4feb2264ea6082df3dd736119b86610d471d61" upstream="master"/>
 </manifest>
