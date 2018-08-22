@@ -15,6 +15,6 @@
 <!-- include all the common repositories, we just want to define the kernel -->
 <include name="common.xml"/>
 
-<project name="seL4.git" path="kernel" revision="refs/tags/9.0.0-mcs"/>
+<project name="seL4.git" path="kernel" revision="new-rt"/>
 
 </manifest>
