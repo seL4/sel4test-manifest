@@ -18,12 +18,12 @@
   
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="db937e995b09d343fb7146c447b0780ab1dca66b" upstream="fix-32bit"/>
-  <project name="seL4.git" path="kernel" revision="a96e0059246c78fb4e23191f6ca2d855e9ed26b6" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="a3c341adc4ee61cdfe68d64245c71ca9b171dd15" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="ea427b1bcc4238cc0111161888ff87a8772bbd7b" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="a710221285b5f1fcce0464ccae5cbd76b1759101" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="e8c8f9e1a3c37508fb1c395884a11d2a569e1ef6" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
   </project>
-  <project name="sel4test.git" path="projects/sel4test" revision="52d5cd83ff169e2b00e6509ced3b325f7474ab4b" upstream="master"/>
-  <project name="util_libs.git" path="projects/util_libs" revision="9129112d2ab41dacbdb23918834767e5c48d3f31" upstream="master"/>
+  <project name="sel4test.git" path="projects/sel4test" revision="661758576cc840c663fecadf7fb4546c1e54a2a6" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="2c4524ce84652960cda127a8b0ae6690022988ee" upstream="master"/>
 </manifest>
