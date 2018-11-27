@@ -18,7 +18,7 @@
   
   <project name="musllibc.git" path="projects/musllibc" revision="9e288a83f17de80e54af87852674d70f59d6beee" upstream="sel4"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="db937e995b09d343fb7146c447b0780ab1dca66b" upstream="fix-32bit"/>
-  <project name="seL4.git" path="kernel" revision="cfcf95c7768e57f6bf673ebccd2e15b8d174f19e" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="71a2c5384e82b3542f9aafd40e9bc4957c7fe059" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="03daf5061059d37a3fd135aadf8050cea57477c3" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="e8c8f9e1a3c37508fb1c395884a11d2a569e1ef6" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
