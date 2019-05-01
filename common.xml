@@ -42,6 +42,7 @@ remote="seL4"
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
     <linkfile src="settings.cmake" dest="settings.cmake"/>
 </project>
+<project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" />
 <project name="riscv-pk" remote="sel4proj" revision="fix-32bit" path="tools/riscv-pk"/>
 <project name="nanopb" path="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
 
