@@ -18,14 +18,14 @@
   
   <project name="musllibc.git" path="projects/musllibc" revision="f58bc71f4ae291cf58cc058aa816dd65be9dca7f" upstream="sel4"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="f4c34d86d35bbab8e1ff72f7aec691e01a3def88" upstream="fix-32bit"/>
-  <project name="seL4.git" path="kernel" revision="ce6d05e9a6db418b38cb8d0047d952e181573122" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="7c8938bdbee2fe9f152f527d6b93b7eb1489f777" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="ca1caa35cf0c499107950fb5349ea24765913ebc" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="e3fca94413771c9e7763151d705e9aad6cf2b47a" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="0a16266f87f1f2e6fb7b51b7676206c195e10770" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4test.git" path="projects/sel4test" revision="43ad43cb275c595d96548bcb30cb54173acbdb87" upstream="master">
+  <project name="sel4test.git" path="projects/sel4test" revision="1b44034dfaa0b430f435e4aa3dd5a600bdd90d4f" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="dcc683b32be71e1cc98cb047e18a66e9e3ef9947" upstream="master"/>
