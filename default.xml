@@ -16,16 +16,17 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="musllibc.git" path="projects/musllibc" revision="f58bc71f4ae291cf58cc058aa816dd65be9dca7f" upstream="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="f4c34d86d35bbab8e1ff72f7aec691e01a3def88" upstream="fix-32bit"/>
-  <project name="seL4.git" path="kernel" revision="82f2d1fc9c1a14cd9cf2531055b4da5eb898b89c" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="4fcd22fbb0e6d42ecc25652096984375f0a5b37a" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="d93319cd165510fdbe331950844179ba4a6803ce" upstream="master">
+  <project name="seL4.git" path="kernel" revision="a06690fbe95a91a4b5ee5f91970cba48c07ad5b3" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="2c39ace1ba20d806ffdb09a9cfb2223a352eebcd" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="e103fc65c0423645050593d5ea5a4cf2a8380d01" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4test.git" path="projects/sel4test" revision="2d09fbcf16a11f5767457fa700409e58c073e939" upstream="master">
+  <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="82c704af0e2e133564d17a23645cc1bfd9ae78de" upstream="master"/>
+  <project name="sel4test.git" path="projects/sel4test" revision="0a43596955b0ecd7de36108165ac15dbaf7c36b6" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="dcc683b32be71e1cc98cb047e18a66e9e3ef9947" upstream="master"/>
