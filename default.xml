@@ -30,5 +30,5 @@
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="d36f3a96a4d9df1d131288fc8a62c9ed8eb0f544" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="742fdfe517cd4e26ea2db252f9225eda179610f8" upstream="master"/>
 </manifest>
