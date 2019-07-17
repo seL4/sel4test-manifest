@@ -21,17 +21,17 @@
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="f4c34d86d35bbab8e1ff72f7aec691e01a3def88" upstream="fix-32bit"/>
   <project name="seL4.git" path="kernel" revision="3c896239172a9619e9d082db57c4723e6dff7d9f" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="113f7c17275342cd9934a7a8c3917b869d0758bb" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="93ff2a9f597279a57c6b8e4f2eec9edb9475bb86" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="9f842de4bd3094475de4d57bdc7d8cc83577579c" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" revision="d9a93f62f7eea1c7b9c7f470bfdaf066cf362e38" upstream="master"/>
+  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" revision="46fa9362ed5a80157ebfa69325a8fe303e6b81d4" upstream="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="40b802ba068539e02d565b9ef24e388839e81441" upstream="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="01aeb04a25f1ac4b3e03cf653cba1c4b0253e311" upstream="master">
+  <project name="sel4test.git" path="projects/sel4test" revision="789d064ab3784415bafd271e079780c6aa341dc6" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="03d71b1944b16dcb92a374bc17a270e334821cff" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="cc5f7140fdf307f78582a45e038990c3b2d27fb0" upstream="master"/>
 </manifest>
