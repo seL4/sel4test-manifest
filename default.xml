@@ -21,17 +21,17 @@
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="f4c34d86d35bbab8e1ff72f7aec691e01a3def88" upstream="fix-32bit"/>
   <project name="seL4.git" path="kernel" revision="3c896239172a9619e9d082db57c4723e6dff7d9f" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="74156bbe0ad6d6fea578fa39447aa9eb8dbc5f1c" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="9f842de4bd3094475de4d57bdc7d8cc83577579c" upstream="master">
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="c18523b27d647ebd3ad3d8d043673ccb54c250ca" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="0d848ca3283945b25ae0f38e1094322437843cee" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" revision="46fa9362ed5a80157ebfa69325a8fe303e6b81d4" upstream="master"/>
-  <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="40b802ba068539e02d565b9ef24e388839e81441" upstream="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="789d064ab3784415bafd271e079780c6aa341dc6" upstream="master">
+  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" revision="602254368e96e80dc8b1382341c335fa6a5e727c" upstream="master"/>
+  <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="2bd3ae65aa8a5a951bfd56d699837930a6c05c4d" upstream="master"/>
+  <project name="sel4test.git" path="projects/sel4test" revision="7263e5a5bd622658a757562f88452e3d655ddfdd" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="cc5f7140fdf307f78582a45e038990c3b2d27fb0" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="c84a0155d1c4458b8197ec3b1a4c10c3a4200882" upstream="master"/>
 </manifest>
