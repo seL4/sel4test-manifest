@@ -22,7 +22,7 @@
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="f4c34d86d35bbab8e1ff72f7aec691e01a3def88" upstream="fix-32bit"/>
   <project name="seL4.git" path="kernel" revision="3c896239172a9619e9d082db57c4723e6dff7d9f" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="c18523b27d647ebd3ad3d8d043673ccb54c250ca" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="0d848ca3283945b25ae0f38e1094322437843cee" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="c0f952784b9513f92d33c6dddcbfc5e1d4e41a22" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
