@@ -20,7 +20,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
-  <project name="seL4.git" path="kernel" revision="158ab9a3eba1358e999218b19ea671146801fcc3" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="4e06b4982f9f3da4268f46285f3e777f1b264d30" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="11e4ef23082e9e7eafb086d462b7de5630a7e810" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="13f0ced490dc9ae7566df72978063dbf7688516e" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
@@ -29,7 +29,7 @@
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" revision="ba8de51828024fe1de88b2098690f9515e32347f" upstream="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="2bd3ae65aa8a5a951bfd56d699837930a6c05c4d" upstream="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="ba72d93aa47f01e27c3956485cd4472497ca5f2e" upstream="master">
+  <project name="sel4test.git" path="projects/sel4test" revision="9afc36fa3afa94fa23a58563a46d12b80b2535c4" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
