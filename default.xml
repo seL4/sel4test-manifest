@@ -20,18 +20,18 @@
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
-  <project name="seL4.git" path="kernel" revision="69fa94e7f4b6444b0ed3adef8ea7693952ccbce3" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="1de25d1106fe79d77d3f318620fd510d749fad38" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="13f0ced490dc9ae7566df72978063dbf7688516e" upstream="master">
+  <project name="seL4.git" path="kernel" revision="1387bfeb5106452bfc164e85b396b36c012fd894" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="d2af53182cfd9c62ce409dfbac75b00a25cc4e68" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="2925818e7c2ba30bb8742834c2c8c5024efe1caa" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" revision="4fe6bdfc8654358636a098b973d2fd03eca90001" upstream="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="2bd3ae65aa8a5a951bfd56d699837930a6c05c4d" upstream="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="9afc36fa3afa94fa23a58563a46d12b80b2535c4" upstream="master">
+  <project name="sel4test.git" path="projects/sel4test" revision="d6d8f604d5e1f262e9044127588ec1f2f7d4e26f" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
     <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="de5c6cd0fc151d11e79d599afe96a1fc1cc49deb" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="a0bf1d576ad18830df4266c4ee0b16d6c7a4c713" upstream="master"/>
 </manifest>
