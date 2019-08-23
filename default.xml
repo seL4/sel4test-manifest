@@ -20,7 +20,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
-  <project name="seL4.git" path="kernel" revision="1387bfeb5106452bfc164e85b396b36c012fd894" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="3b12f529d71de7615eadf30245ec58234e4728ab" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="d2af53182cfd9c62ce409dfbac75b00a25cc4e68" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="05dbe1f87987fcf53e6b43cf838c107ab423f510" upstream="master">
     <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
