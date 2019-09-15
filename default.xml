@@ -17,21 +17,19 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="musllibc.git" path="projects/musllibc" revision="1aaf321083bd4b9c14413a1a82dbd496f5108a1b" upstream="sel4"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="53a22343832f1b5310c93db51a3b04199c78bb49" upstream="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
-  <project name="seL4.git" path="kernel" revision="7798b4767dcb7bcd3699f191f685435cfa645518" upstream="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="d2af53182cfd9c62ce409dfbac75b00a25cc4e68" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="e8822c6b583de4132f5ed88232f23215332753ff" upstream="master">
-    <linkfile dest="CMakeLists.txt" src="cmake-tool/default-CMakeLists.txt"/>
+  <project name="seL4.git" path="kernel" revision="58b6f3503ea7e48d5891b43fcae13911928bb50b" upstream="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="0d668a1695d7c287c3c7bb1a789fd8b6114b3bd3" upstream="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="9cb6d8b67e85a0d95d8f3ea0b58566efdcb2f824" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" revision="4fe6bdfc8654358636a098b973d2fd03eca90001" upstream="master"/>
-  <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="2bd3ae65aa8a5a951bfd56d699837930a6c05c4d" upstream="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="d6d8f604d5e1f262e9044127588ec1f2f7d4e26f" upstream="master">
+  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" revision="62afbd9251c73182c0ea4381b38848d363a86802" upstream="master"/>
+  <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="4a086d3b2650b4804bf4ebed1e4df6e046181706" upstream="master"/>
+  <project name="sel4test.git" path="projects/sel4test" revision="1a6bc09da9f680433bdb1c162b425626a36c1e16" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
-    <linkfile dest="settings.cmake" src="settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="ffbc57f187a3dafeb840c899e87b0236ba5574ec" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="d51a3598b95c952953f85885b1a5aecc910277eb" upstream="master"/>
 </manifest>
