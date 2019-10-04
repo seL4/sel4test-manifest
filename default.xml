@@ -28,8 +28,8 @@
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" revision="62afbd9251c73182c0ea4381b38848d363a86802" upstream="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="4a086d3b2650b4804bf4ebed1e4df6e046181706" upstream="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="e14279032ddbf391a22c808d804940b49e51237a" upstream="master">
+  <project name="sel4test.git" path="projects/sel4test" revision="cb5640e142a3b970773678d6ff75bb6cc82998bc" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="cda8abbed6f9eedb2fb1693eaa686696e1532265" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="815d9553be6972377e0a43f842f03dfa262491c2" upstream="master"/>
 </manifest>
