@@ -20,9 +20,9 @@
   <project name="musllibc.git" path="projects/musllibc" revision="1c6350ea6149e8a6b7de8890c34ba3ed615afe60" upstream="sel4"/>
   <project name="nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
-  <project name="seL4.git" path="kernel" revision="7889580a7dce3bc21758c39da64d461e5dad8ba4" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="e460b934b15e72a49b73f4b48a3092f539e827d5" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="d7be11ef70788b8f50232b5568088903077c5fae" upstream="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="01517aff0b44e93c7caf01fe1c3fc6c93e72c402" upstream="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="b240d71f253b22ead05b9c704104d88015e15d49" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
     <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
@@ -31,5 +31,5 @@
   <project name="sel4test.git" path="projects/sel4test" revision="69a8f5904030d4e311120b2a5846c78789421546" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="697ffd536988f044ad09a309a7394bd1ddfa896d" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="c15979b4f6253742589a3396921d3492efd2b9ad" upstream="master"/>
 </manifest>
