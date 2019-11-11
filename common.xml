@@ -42,6 +42,6 @@ remote="seL4"
 </project>
 <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" />
 <project name="riscv-pk" remote="sel4proj" revision="fix-32bit" path="tools/riscv-pk"/>
-<project name="nanopb" path="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master" remote="nanopb"/>
+<project name="nanopb" path="tools/nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master" remote="nanopb"/>
 
 </manifest>
