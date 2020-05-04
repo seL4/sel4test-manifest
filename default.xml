@@ -20,7 +20,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="8a4bddbf499a1c9ff8a064d360dd715ef99ffcab" upstream="sel4"/>
   <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
-  <project name="seL4.git" path="kernel" revision="c428f320b76dd271206711e6f6203d06f7b2c289" upstream="master"/>
+  <project name="seL4.git" path="kernel" revision="d7c35bf6a31b64051763436edc9dd744ecaf129d" upstream="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="1f177036a60d8b473a9c3ffc3858a62e73c2e224" upstream="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="a5de0e555b25655a798bdcdecee154202242da11" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
@@ -31,5 +31,5 @@
   <project name="sel4test.git" path="projects/sel4test" revision="9b516c0a9f8fe17721ddfd74499932765a73301b" upstream="master">
     <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="2d6a3ff1a7469c0e752b3c5e5e4e46feef091e03" upstream="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="f73984d7252e59c59e5fe8d3cc28164b597a3bb7" upstream="master"/>
 </manifest>
