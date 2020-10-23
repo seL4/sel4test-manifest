@@ -24,6 +24,7 @@ fetch="."
 
 <remote fetch="../sel4proj" name="sel4proj"/>
 <remote fetch="https://github.com/nanopb" name="nanopb" />
+<remote fetch="https://github.com/riscv" name="opensbi"/>
 
 <default revision="master"
 remote="seL4"
@@ -41,7 +42,7 @@ remote="seL4"
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
 </project>
 <project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" />
-<project name="riscv-pk" remote="sel4proj" revision="fix-32bit" path="tools/riscv-pk"/>
+<project name="opensbi" remote="opensbi" revision="a98258d0b537a295f517bbc8d813007336731fa9" path="tools/opensbi"/>
 <project name="nanopb" path="tools/nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master" remote="nanopb"/>
 
 </manifest>
