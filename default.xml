@@ -20,7 +20,7 @@
   <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
   <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
   <project dest-branch="fix-32bit" name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
-  <project dest-branch="master" name="seL4.git" path="kernel" revision="73b0773d90253d3af43ce9b43547bbb7f5397e41" upstream="master"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="dc83859f6a220c04f272be17406a8d59de9c8fbf" upstream="master"/>
   <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="74de7febfdf927d169bc433f736a5c2b8e30725b" upstream="master"/>
   <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="31d847ce5f599c139c51f9a22843b0e2898ba4c5" upstream="master">
     <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
