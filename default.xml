@@ -8,12 +8,13 @@
   <remote name="nanopb" fetch="https://github.com/nanopb"/>
   <remote name="seL4" fetch="."/>
   <remote name="sel4proj" fetch="../sel4proj"/>
+  <remote name="opensbi" fetch="https://github.com/riscv"/>
   
   <default remote="seL4" revision="master"/>
   
   <project name="musllibc.git" path="projects/musllibc" revision="690b6d75eac7172a4147395ecd155f7c9b910c12" upstream="sel4" dest-branch="sel4"/>
   <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
-  <project name="riscv-pk" path="tools/riscv-pk" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit" dest-branch="fix-32bit"/>
+  <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="a98258d0b537a295f517bbc8d813007336731fa9" upstream="master"/>
   <project name="seL4.git" path="kernel" revision="fd7a848b59b55a7865439028879c61dc803fc471" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="600fe15be5d8d28b68a1f85fa4e5e8d131fde1bc" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="f086b4b818d51519a6d00f6934d97c2a3a834cbe" upstream="master" dest-branch="master">
