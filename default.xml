@@ -14,7 +14,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="c7aa943a2ad4fccaccf52a1f957bf8860f57f5b0" upstream="sel4" dest-branch="sel4"/>
   <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="1466e6f953835b191a7f5acf0c06c941d4cd33d9" upstream="master" dest-branch="refs/tags/0.4.3"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="a98258d0b537a295f517bbc8d813007336731fa9"/>
-  <project name="seL4.git" path="kernel" revision="7892335ca1884e51f560e9a9cce8881ec70dee96" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="f236ae89354222d1ed87f4843e3eb1309688c831" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="9bc1a66dd7e7971cab97f300bb563110ee213f61" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="08715edb200e2a0aaa38d144788a1b48032c54cd" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
@@ -22,8 +22,8 @@
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="8dfa6a0da7b9c24e4bcc4cb5031a22db62c3f4d1" upstream="master" dest-branch="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" revision="ec3c1348c31ce2c459f9a80a1c79f2237de3a4cd" upstream="master" dest-branch="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="a9d3d683c04ecab5a1a4f4b00238044f24c72b24" upstream="master" dest-branch="master">
+  <project name="sel4test.git" path="projects/sel4test" revision="ef444ebda5e72d281380a8939cd5dcb30e2109ac" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="8ed42ff66c586ab2b6dc32f678e00764453754f0" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="cedc54c8dd53e2ba28345869ea5629fd38ccb1f2" upstream="master" dest-branch="master"/>
 </manifest>
