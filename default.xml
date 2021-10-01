@@ -14,15 +14,15 @@
   <project name="musllibc.git" path="projects/musllibc" revision="c7aa943a2ad4fccaccf52a1f957bf8860f57f5b0" upstream="sel4" dest-branch="sel4"/>
   <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="1466e6f953835b191a7f5acf0c06c941d4cd33d9" upstream="master" dest-branch="refs/tags/0.4.3"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="a98258d0b537a295f517bbc8d813007336731fa9" upstream="refs/tags/v0.8" dest-branch="refs/tags/v0.8"/>
-  <project name="seL4.git" path="kernel" revision="ea8e57275c0483a89f66fdb7136fb04978ac7ff7" upstream="master" dest-branch="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="3678de2c63c270d2e7ed9c56aa40c2e4ba2a5735" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="33c6f430d5bd34dfa798afdf205a2ebb162d0d5b" upstream="master" dest-branch="master">
+  <project name="seL4.git" path="kernel" revision="45dc26ded99d36da784fcea87e521fc8d6991f66" upstream="master" dest-branch="master"/>
+  <project name="seL4_libs.git" path="projects/seL4_libs" revision="14d3c94f5164c993033a35a5d9e23ba6dcf12f5f" upstream="master" dest-branch="master"/>
+  <project name="seL4_tools.git" path="tools/seL4" revision="74f4b0e0ccab286ef7aefb675bc53db408bb939e" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="a6fbc13c792ef518e5bcf1da69c8d27b6cd19814" upstream="master" dest-branch="master"/>
-  <project name="sel4runtime.git" path="projects/sel4runtime" revision="93f86fa390841b04bc2c72472656b130e679d3be" upstream="master" dest-branch="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="403fa55021826d5765e814f1685e623b1c84f4b8" upstream="master" dest-branch="master">
+  <project name="sel4runtime.git" path="projects/sel4runtime" revision="c27050513503f615137950cb3918f6f040f34407" upstream="master" dest-branch="master"/>
+  <project name="sel4test.git" path="projects/sel4test" revision="950f9acb3ea761cee05c25875fb6aaa1b88e3b92" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="a9f08c9061d776f6aa7d519041ed8d1525dd01b4" upstream="master" dest-branch="master"/>
