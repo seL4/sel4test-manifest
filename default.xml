@@ -25,5 +25,5 @@
   <project name="sel4test.git" path="projects/sel4test" revision="950f9acb3ea761cee05c25875fb6aaa1b88e3b92" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="a9f08c9061d776f6aa7d519041ed8d1525dd01b4" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="c3c3733f0a311a6fd8bd460d0ca0da1ac08d6cc4" upstream="master" dest-branch="master"/>
 </manifest>
