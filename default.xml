@@ -16,7 +16,7 @@
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="a98258d0b537a295f517bbc8d813007336731fa9" upstream="refs/tags/v0.8" dest-branch="refs/tags/v0.8"/>
   <project name="seL4.git" path="kernel" revision="fc167441f02ac35e0654047a323936e563bcff79" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="14d3c94f5164c993033a35a5d9e23ba6dcf12f5f" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="03408e79d9b04ddef30fdea6b768a39768bbecd6" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="f0895a76c66d87acaef20549948d50fb04487af9" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
