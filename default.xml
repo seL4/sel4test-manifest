@@ -12,8 +12,8 @@
 -->
 <manifest>
   <remote fetch="https://github.com/nanopb" name="nanopb"/>
-  <remote fetch="." name="seL4"/>
-  <remote fetch="../sel4proj" name="sel4proj"/>
+  <remote fetch="https://github.com/seL4" name="seL4"/>
+  <remote fetch="https://github.com/SEL4PROJ" name="sel4proj"/>
   
   <default remote="seL4" revision="master"/>
   
