@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright 2021, Data61, CSIRO (ABN 41 687 119 230)
+     Copyright 2020, Data61
+     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+     ABN 41 687 119 230.
 
-     SPDX-License-Identifier: BSD-2-Clause
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
 -->
 <manifest>
-  <remote name="nanopb" fetch="https://github.com/nanopb"/>
-  <remote name="opensbi" fetch="https://github.com/riscv"/>
-  <remote name="seL4" fetch="."/>
-  <remote name="sel4proj" fetch="../sel4proj"/>
+  <remote fetch="https://github.com/nanopb" name="nanopb"/>
+  <remote fetch="." name="seL4"/>
+  <remote fetch="../sel4proj" name="sel4proj"/>
   
   <default remote="seL4" revision="master"/>
   
-  <project name="musllibc.git" path="projects/musllibc" revision="c7aa943a2ad4fccaccf52a1f957bf8860f57f5b0" upstream="sel4" dest-branch="sel4"/>
+  <project dest-branch="sel4" name="musllibc.git" path="projects/musllibc" revision="4a8335b2248d934e2e40386af4f1b0495b3c173d" upstream="sel4"/>
   <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master"/>
-  <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="a98258d0b537a295f517bbc8d813007336731fa9"/>
-  <project name="seL4.git" path="kernel" revision="21c1a2ca7a9786d1297e1ff0a132bc57eeb55530" upstream="master" dest-branch="master"/>
-  <project name="seL4_libs.git" path="projects/seL4_libs" revision="9c0d209d67adda2558db28f5abbae994770d0340" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="c09dea9af4908ed0ef05d085ae85eda19dfae5dd" upstream="master" dest-branch="master">
-    <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
-    <linkfile src="cmake-tool/griddle" dest="griddle"/>
+  <project dest-branch="fix-32bit" name="riscv-pk" path="tools/riscv-pk" remote="sel4proj" revision="d3293c7c23e923338318f3860b2f20dd0b51a016" upstream="fix-32bit"/>
+  <project dest-branch="master" name="seL4.git" path="kernel" revision="dc83859f6a220c04f272be17406a8d59de9c8fbf" upstream="master"/>
+  <project dest-branch="master" name="seL4_libs.git" path="projects/seL4_libs" revision="74de7febfdf927d169bc433f736a5c2b8e30725b" upstream="master"/>
+  <project dest-branch="master" name="seL4_tools.git" path="tools/seL4" revision="31d847ce5f599c139c51f9a22843b0e2898ba4c5" upstream="master">
+    <linkfile dest="init-build.sh" src="cmake-tool/init-build.sh"/>
+    <linkfile dest="griddle" src="cmake-tool/griddle"/>
   </project>
-  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="2e30fdeb1d32f1ac252c94b8d6dcf2b9f4ee17b5" upstream="master" dest-branch="master"/>
-  <project name="sel4runtime.git" path="projects/sel4runtime" revision="e1c51c9b506708398bb1ffbf9098ae82855d3c14" upstream="master" dest-branch="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="5d607ee8b8cc8b8f84cbe4e2db45afcb42355366" upstream="master" dest-branch="master">
-    <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
+  <project dest-branch="master" name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" revision="3bb4f1334b89c0da10c26250ece88f37489401d9" upstream="master"/>
+  <project dest-branch="master" name="sel4runtime.git" path="projects/sel4runtime" remote="sel4proj" revision="2755b9d840a4600a09cb9e880b6c14c7d2177d09" upstream="master"/>
+  <project dest-branch="master" name="sel4test.git" path="projects/sel4test" revision="e62697604e45f2fa8f80b5686f2eb7cff4d04ddd" upstream="master">
+    <linkfile dest="easy-settings.cmake" src="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="5f6cec55789f9a0160c427695f600bcf6dd4a1a7" upstream="master" dest-branch="master"/>
+  <project dest-branch="master" name="util_libs.git" path="projects/util_libs" revision="3e406b59f61bdab51a357b8ff046f77a3116cdd6" upstream="master"/>
 </manifest>

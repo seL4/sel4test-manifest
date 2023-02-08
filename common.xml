@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-     Copyright 2018, Data61, CSIRO
+     Copyright 2017, Data61
+     Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+     ABN 41 687 119 230.
 
-     SPDX-License-Identifier: BSD-2-Clause
+     This software may be distributed and modified according to the terms of
+     the BSD 2-Clause license. Note that NO WARRANTY is provided.
+     See "LICENSE_BSD2.txt" for details.
+
+     @TAG(DATA61_BSD)
 -->
 <manifest>
 
@@ -18,7 +24,6 @@ fetch="."
 
 <remote fetch="../sel4proj" name="sel4proj"/>
 <remote fetch="https://github.com/nanopb" name="nanopb" />
-<remote fetch="https://github.com/riscv" name="opensbi"/>
 
 <default revision="master"
 remote="seL4"
@@ -28,15 +33,15 @@ remote="seL4"
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
 </project>
-<project name="sel4runtime.git" path="projects/sel4runtime"/>
+<project name="sel4runtime.git" remote="sel4proj" path="projects/sel4runtime"/>
 <project name="musllibc.git" path="projects/musllibc" revision="sel4"/>
 <project name="seL4_libs.git" path="projects/seL4_libs"/>
 <project name="util_libs.git" path="projects/util_libs"/>
 <project name="sel4test.git" path="projects/sel4test">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
 </project>
-<project name="sel4_projects_libs" path="projects/sel4_projects_libs" />
-<project name="opensbi" remote="opensbi" revision="a98258d0b537a295f517bbc8d813007336731fa9" path="tools/opensbi"/>
+<project name="sel4_projects_libs" path="projects/sel4_projects_libs" remote="sel4proj" />
+<project name="riscv-pk" remote="sel4proj" revision="fix-32bit" path="tools/riscv-pk"/>
 <project name="nanopb" path="tools/nanopb" revision="847ac296b50936a8b13d1434080cef8edeba621c" upstream="master" remote="nanopb"/>
 
 </manifest>
