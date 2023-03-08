@@ -20,7 +20,7 @@
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
-  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="f376e0b907090802729b5468d80ccd8d97a83f5a" upstream="master" dest-branch="master"/>
+  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="58dc2820a94797f5406e04b5509ef2fb19311198" upstream="master" dest-branch="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
   <project name="sel4test.git" path="projects/sel4test" revision="944f3d0010ef8b82dac61951242c34052efd09ed" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
