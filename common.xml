@@ -36,7 +36,7 @@ remote="seL4"
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
 </project>
 <project name="sel4_projects_libs" path="projects/sel4_projects_libs" />
-<project name="opensbi" remote="opensbi" revision="refs/tags/v1.1" path="tools/opensbi"/>
+<project name="opensbi" remote="opensbi" revision="refs/tags/v1.2" path="tools/opensbi"/>
 <project name="nanopb" path="tools/nanopb" revision="refs/tags/0.4.3" upstream="master" remote="nanopb"/>
 
 </manifest>
