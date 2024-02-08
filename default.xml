@@ -14,16 +14,16 @@
   <project name="musllibc.git" path="projects/musllibc" revision="9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b" upstream="sel4" dest-branch="sel4"/>
   <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="1466e6f953835b191a7f5acf0c06c941d4cd33d9" upstream="master" dest-branch="refs/tags/0.4.3"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="refs/tags/v0.9" dest-branch="refs/tags/v0.9"/>
-  <project name="seL4.git" path="kernel" revision="76eee243238daab2e57b9a7527be2e9be82dd071" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="7d3353332ade77483fe65c121896183569cbd8d5" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="f3443015111db398747b05b74f0668bb4c92044e" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="5e2506bc575e841f5c02affb7fb57728afb75623" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="92124ea258e0d9b315882503ce6c82ce4ba710a0" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="4662171c6026c789974acdc60efc9f7ee96de64e" upstream="master" dest-branch="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" revision="bb75358167fe8bdc0e3df565bb419dc6eb150a60" upstream="master" dest-branch="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="0a488b92bc7a08acc14d49524d1f22656f286627" upstream="master" dest-branch="master">
+  <project name="sel4test.git" path="projects/sel4test" revision="dae2ff3097965eb0242f9d677d610774a2267dea" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="9df2d1049dd12e8cd69982845aca43ffe750841d" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="b67281aeb4dc590d31d668d29b7e7bfb2cd86e22" upstream="master" dest-branch="master"/>
 </manifest>
