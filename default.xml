@@ -22,7 +22,7 @@
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="97360824eebc80e9a68fef9ef699f3c0ff8bd792" upstream="master" dest-branch="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" revision="bb75358167fe8bdc0e3df565bb419dc6eb150a60" upstream="master" dest-branch="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="e0cb8031d586fec78dc949d4c284a545dbfec93d" upstream="master" dest-branch="master">
+  <project name="sel4test.git" path="projects/sel4test" revision="95522e9c2b2d3af5262430e905aeaa434c2a5d75" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="60d45180620fb25b0e9e5ab5f535b64a529e7523" upstream="master" dest-branch="master"/>
