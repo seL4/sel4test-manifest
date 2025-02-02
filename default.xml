@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-   Copyright 2024 seL4 Project a Series of LF Projects, LLC
+   Copyright 2025 seL4 Project a Series of LF Projects, LLC
    SPDX-License-Identifier: BSD-2-Clause
 -->
 <manifest>
@@ -14,7 +14,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="9798aedbc3ee5fa3c1d7f788e9312df9203e7b0b" upstream="sel4" dest-branch="sel4"/>
   <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="1466e6f953835b191a7f5acf0c06c941d4cd33d9" upstream="master" dest-branch="refs/tags/0.4.3"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="refs/tags/v0.9" dest-branch="refs/tags/v0.9"/>
-  <project name="seL4.git" path="kernel" revision="1732c05ef6b75fd18ce5161d099f0d73e7fcb6a3" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="974e9ffb2ee6bd3e45b72f27d92ccac06ad477d5" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="d3d24dd818f99bd244d4def322818637d9a1d0cb" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="bef85f32a4829c5062fd6c808c7cab57b816cd9f" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
@@ -22,7 +22,7 @@
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="97360824eebc80e9a68fef9ef699f3c0ff8bd792" upstream="master" dest-branch="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" revision="bb75358167fe8bdc0e3df565bb419dc6eb150a60" upstream="master" dest-branch="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="d89ce01bad43f15cc30d3d093c0fc2f9ac15ef43" upstream="master" dest-branch="master">
+  <project name="sel4test.git" path="projects/sel4test" revision="e879d7de65cb1457c246fc35a07b8f75fee6d56c" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="f98dad12344a4c0fecf37bd11c82692ecc7a4a9a" upstream="master" dest-branch="master"/>
