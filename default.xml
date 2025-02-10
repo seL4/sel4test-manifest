@@ -16,7 +16,7 @@
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="refs/tags/v0.9" dest-branch="refs/tags/v0.9"/>
   <project name="seL4.git" path="kernel" revision="697dfb8b9e014788eca228df7cb217406f36d304" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="12d0d9739f1f7b262f62f6c912d64b87f9abbd07" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="2cac3e789e1e1cde5eb50710735360a509b71e82" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="fa87eeddd8fb458cf0464157cab0fab0bb31c3cf" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
@@ -25,5 +25,5 @@
   <project name="sel4test.git" path="projects/sel4test" revision="3583555b7db2b9e34ce3184cfa36a8cbb65151bc" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="a334419353607137b7fa7a299e77b0b07bdf0d9a" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="1bc0e798d041c615aa0cc8e3f8d74939d5d00c9e" upstream="master" dest-branch="master"/>
 </manifest>
