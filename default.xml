@@ -14,7 +14,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="b0005f86fecbd6d0257b15363a5b013446914265" upstream="sel4" dest-branch="sel4"/>
   <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="cad3c18ef15a663e30e3e43e3a752b66378adec1" upstream="master" dest-branch="refs/tags/0.4.9.1"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="refs/tags/v0.9" dest-branch="refs/tags/v0.9"/>
-  <project name="seL4.git" path="kernel" revision="7f0ec22c70608bd14fae5aa19bdd75f9e5d2f4ea" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="500e2c31662568054738d56b03fa3300d3b88927" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="262a34dcb2f3285be01df9e5404d911132d567a6" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="de2de2fc6348889161966a72f65ccdf5553da1bf" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
