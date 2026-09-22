@@ -14,16 +14,16 @@
   <project name="musllibc.git" path="projects/musllibc" revision="b0005f86fecbd6d0257b15363a5b013446914265" upstream="sel4" dest-branch="sel4"/>
   <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="cad3c18ef15a663e30e3e43e3a752b66378adec1" upstream="master" dest-branch="refs/tags/0.4.9.1"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="refs/tags/v0.9" dest-branch="refs/tags/v0.9"/>
-  <project name="seL4.git" path="kernel" revision="f57ae94e9a4cf28eba43e608e942ee9fc227f8ec" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="0f108291103d2797fc604fba71a1774d0ac20975" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="262a34dcb2f3285be01df9e5404d911132d567a6" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" revision="de2de2fc6348889161966a72f65ccdf5553da1bf" upstream="master" dest-branch="master">
+  <project name="seL4_tools.git" path="tools/seL4" revision="f1f63d93301cf491abc2d38ffb1a97803c218b31" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
-  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="7b20a1a7c0e3c78696c3384478609213cc9b41ff" upstream="master" dest-branch="master"/>
+  <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="fe2647c2582cd22a83e07491bb281ce061324b81" upstream="master" dest-branch="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" revision="86489cf6efab9f314964e79468c036e9035394c7" upstream="master" dest-branch="master"/>
   <project name="sel4test.git" path="projects/sel4test" revision="b00d84fca8890e34f6007f104372fec5e82a23d1" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
-  <project name="util_libs.git" path="projects/util_libs" revision="6e55b3c62687779692150e1de411ce61b9d2919a" upstream="master" dest-branch="master"/>
+  <project name="util_libs.git" path="projects/util_libs" revision="8dd23f736664fe61aefc25ea45ffff8127bcdf2b" upstream="master" dest-branch="master"/>
 </manifest>
