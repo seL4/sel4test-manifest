@@ -14,7 +14,7 @@
   <project name="musllibc.git" path="projects/musllibc" revision="b0005f86fecbd6d0257b15363a5b013446914265" upstream="sel4" dest-branch="sel4"/>
   <project name="nanopb" path="tools/nanopb" remote="nanopb" revision="cad3c18ef15a663e30e3e43e3a752b66378adec1" upstream="master" dest-branch="refs/tags/0.4.9.1"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="refs/tags/v0.9" dest-branch="refs/tags/v0.9"/>
-  <project name="seL4.git" path="kernel" revision="fded1e81bc1a4848b3dff6ad0989810b8e5d5818" upstream="master" dest-branch="master"/>
+  <project name="seL4.git" path="kernel" revision="f49ce97edfe6d5bfc0215cb776e888455b300fb2" upstream="master" dest-branch="master"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="262a34dcb2f3285be01df9e5404d911132d567a6" upstream="master" dest-branch="master"/>
   <project name="seL4_tools.git" path="tools/seL4" revision="6493e0c6fab360eb81a8115a49c9ca7bc280c48a" upstream="master" dest-branch="master">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
@@ -22,7 +22,7 @@
   </project>
   <project name="sel4_projects_libs" path="projects/sel4_projects_libs" revision="b9137c0d905ce966a02b1c9a0c6c0e4beb48223b" upstream="master" dest-branch="master"/>
   <project name="sel4runtime.git" path="projects/sel4runtime" revision="86489cf6efab9f314964e79468c036e9035394c7" upstream="master" dest-branch="master"/>
-  <project name="sel4test.git" path="projects/sel4test" revision="69f888271167448f130e741954696aaf9f80541c" upstream="master" dest-branch="master">
+  <project name="sel4test.git" path="projects/sel4test" revision="dd0df546ff3093c43b6b2c817fb2013d24ca972a" upstream="master" dest-branch="master">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="util_libs.git" path="projects/util_libs" revision="ef49a397b7044fc38b609a99a8c6265a97913b8e" upstream="master" dest-branch="master"/>
